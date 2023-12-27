@@ -1,0 +1,124 @@
+
+
+@media (min-width: 1200px) and (max-width: 1399px){
+	
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+}
+	
+@media (min-width: 992px) and (max-width: 1199px){
+	.hero-section .left-content h2 {
+    	font-size: 52px !important;
+	}
+	.hero-section .left-content h3 {
+    	font-size: 38px;
+	}
+}
+	
+@media (min-width: 768px) and (max-width: 991px){
+	.header-top-menu{
+		display: none;
+	}
+	.header-area{
+		display: none;
+	}
+	.hero-section .left-content .shape {
+    	display: none !important;
+	}
+	.hero-section .right-content .image-tham {
+    	text-align: center !important;
+	}
+	.contact-section .contact_from {
+    	padding: 0px 0px 45px 0px !important;
+	}
+}	
+
+@media (min-width: 480px) and (max-width: 767px){
+	.header-top-menu{
+		display: none;
+	}
+	.header-area{
+		display: none;
+	}
+	.hero-section .left-content .shape {
+    	display: none !important;
+	}
+	.hero-section .right-content .image-tham {
+    	text-align: center !important;
+	}
+	.testi-section .single-testi-box .testi-content p {
+    	width: 95% !important;
+	}
+	.contact-section .contact_from {
+    	padding: 0px 0px 45px 0px !important;
+	}
+	
+}
+
+@media (min-width: 320px) and (max-width: 479px){
+	.header-top-menu{
+		display: none;
+	}
+	.header-area{
+		display: none;
+	}
+	.hero-section .left-content .shape {
+    	display: none !important;
+	}
+	.hero-section .right-content .image-tham {
+    	text-align: center !important;
+	}
+	.portfolio-section .portfolio_nav .portfolio_menu ul li {
+    	line-height: 30px !important;
+    	height: 60px !important;
+	}
+	.faq-section .card-content .single-cird {
+    	margin: 50px 0px 40px 10px !important;
+	}
+	.testi-section .single-testi-box .testi-content p {
+    	width: 95% !important;
+	}
+	.contact-section .contact_from {
+    	padding: 0px 0px 45px 0px !important;
+	}
+	.footer-about-social-icon {
+    	margin-left: 80px !important;
+    	margin-right: 60px !important;
+	}
+	
+	
+}
+
+@media (min-width: 200px) and (max-width: 319px){
+	.header-top-menu{
+		display: none;
+	}
+	.header-area{
+		display: none;
+	}
+	.hero-section .left-content .shape {
+    	display: none !important;
+	}
+	.hero-section .right-content .image-tham {
+    	text-align: center !important;
+	}
+	.portfolio-section .portfolio_nav .portfolio_menu ul li {
+    	line-height: 30px !important;
+    	height: 60px !important;
+	}
+	.faq-section .card-content .single-cird {
+    	margin: 50px 0px 40px 10px !important;
+	}
+	.testi-section .single-testi-box .testi-content p {
+    	width: 100% !important;
+	}
+	.contact-section .contact_from {
+    	padding: 0px 0px 45px 0px !important;
+	}
+	.footer-about-social-icon {
+    	margin-left: 50px !important;
+    	margin-right: 60px !important;
+	}
+	
+
+}

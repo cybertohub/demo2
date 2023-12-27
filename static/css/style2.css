@@ -1,0 +1,93 @@
+body {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Courgette";
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 14px;
+}
+
+/* Links------------------------------------ */
+a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover {
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #0c5adb;
+}
+
+/* ============start organic Header Top Menu Area=============== */
+/* 平板设备样式 */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* 添加平板设备样式 */
+}
+
+/* 小型台式机和笔记本电脑样式 */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* 添加小型台式机和笔记本电脑样式 */
+}
+
+/* 大型台式机和大屏幕样式 */
+
+@media only screen and (min-width: 1200px) {
+  /* 添加大型台式机和大屏幕样式 */
+  .header-area {
+    height: 120px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    width: 1460px;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    height: 82px;
+    width: 140px;
+    background: url('../../static/image/LOGO1@2x.png') no-repeat;
+    background-size: contain;
+  }
+}

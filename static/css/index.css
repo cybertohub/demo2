@@ -1,0 +1,1033 @@
+@font-face {
+  font-family: "ef-font"; /* 自定义字体的名称 */
+  src: url("../font/english/effffdf8-cb4c-441a-af80-dad524228169.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "tt-font"; /* 自定义字体的名称 */
+  src: url("../font/english/TTFirsNeue-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "te-font"; /* 自定义字体的名称 */
+  src: url("../font/english/TechnoChain.otf") format("opentype");
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1459px) {
+  .container {
+    width: 1200px;
+    max-width: 1200px !important;
+  }
+  /* 添加大型台式机和大屏幕样式 */
+  .mainbox {
+    margin-top: 120px;
+  }
+  .bannerbox {
+    display: flex;
+  }
+  .banner img {
+    width: 724px;
+    height: 771px;
+  }
+  .textbox {
+    margin-top: 203px;
+  }
+  .textbox p {
+    font-family: "te-font", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+  }
+  .textbox span {
+    font-family: "te-font", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #0061cd;
+  }
+  .textbox .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 40px;
+    margin-top: 51px;
+  }
+
+  .textbox .btn-earn img {
+    width: 280px;
+    height: 85px !important;
+    margin-top: 41px;
+  }
+  .Protocol {
+    margin-top: 82px;
+    text-align: center;
+  }
+  .Protocol p {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+  }
+  .Protocol span {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #0061cd;
+  }
+  .down img {
+    width: 52px;
+    height: 37px;
+    margin: 30px 0 29px 0;
+  }
+  .pro-detail p {
+    font-size: 25px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 36px;
+  }
+  .pro-detail img {
+    width: 1200px;
+    height: 647px;
+  }
+  .revenue {
+    display: flex;
+  }
+  .revenue img {
+    width: 638px;
+    height: 742px;
+  }
+  .revenue .box p {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .revenue .box span {
+    font-size: 70px;
+
+    color: #0a84d9;
+  }
+  .colored-line {
+    position: relative;
+    height: 1px;
+    background: #ffffffa8;
+  }
+
+  .colored-line::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 10px;
+    background: #0a84d9;
+    border-radius: 5px;
+    width: 142px;
+  }
+  .revenue .box .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+
+  .revenue .box .details {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .boost {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .boost img {
+    width: 730px;
+    height: 920px;
+  }
+  .boost .box p {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .boost .box span {
+    font-size: 70px;
+
+    color: #0a84d9;
+  }
+  .boost .box .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+  .boost .box .details {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .mof {
+    display: flex;
+  }
+  .mof .box {
+    background-color: #010c13;
+    border-radius: 0 20px 20px 0;
+  }
+  .mof img {
+    width: 631px;
+    height: 630px;
+  }
+  .mof .box p {
+    font-size: 50px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .mof .box .title {
+    margin-top: 51px;
+    margin-left: 56px;
+    margin-bottom: 25px;
+    line-height: 1;
+  }
+  .mof .box .box-title {
+    font-size: 25px;
+    font-family: "ef-font", sans-serif;
+    font-weight: bold;
+    color: #d9d9d9;
+    margin: 0;
+    margin-left: 60px;
+    line-height: 1;
+  }
+  .mof .box span {
+    font-size: 70px;
+
+    color: #0a84d9;
+  }
+  .mof .box .detail {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 9px;
+    margin-left: 60px;
+    margin-bottom: 0;
+  }
+
+  .mof .box .details {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    margin-top: 40px;
+    margin-top: 10px;
+    line-height: 1;
+  }
+  .mof .box .box-top {
+    margin-top: 31px;
+  }
+  .fx-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    justify-content: space-between;
+  }
+  .fx-btn img {
+    width: 305px;
+    height: 106px;
+  }
+  .p-6 {
+    padding: 0 6px;
+  }
+  .pr-6 {
+    padding-right: 6px;
+  }
+  .pl-6 {
+    padding-left: 6px;
+  }
+}
+
+@media only screen and (min-width: 1460px) {
+  /* 添加大型台式机和大屏幕样式 */
+  .mainbox {
+    margin-top: 120px;
+  }
+  .container {
+    width: 1460px;
+    max-width: 1460px !important;
+  }
+  .bannerbox {
+    display: flex;
+  }
+  .banner img {
+    width: 724px;
+    height: 771px;
+  }
+  .textbox {
+    margin-top: 203px;
+  }
+  .textbox p {
+    font-family: "te-font", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+  }
+  .textbox span {
+    font-family: "te-font", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #0061cd;
+  }
+  .textbox .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 40px;
+    margin-top: 51px;
+  }
+
+  .textbox .btn-earn img {
+    width: 280px;
+    height: 85px !important;
+    margin-top: 41px;
+  }
+  .Protocol {
+    margin-top: 82px;
+    text-align: center;
+  }
+  .Protocol p {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+  }
+  .Protocol span {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #0061cd;
+  }
+  .down img {
+    width: 52px;
+    height: 37px;
+    margin: 30px 0 29px 0;
+  }
+  .pro-detail p {
+    font-size: 25px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 36px;
+  }
+  .pro-detail img {
+    width: 1460px;
+    height: 647px;
+  }
+  .revenue {
+    display: flex;
+  }
+  .revenue img {
+    width: 638px;
+    height: 742px;
+  }
+  .revenue .box p {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .revenue .box span {
+    font-size: 70px;
+
+    color: #0a84d9;
+  }
+  .colored-line {
+    position: relative;
+    height: 1px;
+    background: #ffffffa8;
+  }
+
+  .colored-line::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 10px;
+    background: #0a84d9;
+    border-radius: 5px;
+    width: 142px;
+  }
+  .revenue .box .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+
+  .revenue .box .details {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .boost {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .boost img {
+    width: 730px;
+    height: 920px;
+  }
+  .boost .box p {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .boost .box span {
+    font-size: 70px;
+
+    color: #0a84d9;
+  }
+  .boost .box .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+  .boost .box .details {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .mof .box {
+    background-color: #010c13;
+    height: 631px;
+    border-radius: 0 20px 20px 0;
+  }
+  .mof {
+    display: flex;
+  }
+  .mof img {
+    width: 631px;
+    height: 630px;
+  }
+  .mof .box p {
+    font-size: 70px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .mof .box .title {
+    margin-top: 39px;
+    margin-left: 56px;
+    margin-bottom: 34px;
+    line-height: 1;
+  }
+  .mof .box .box-title {
+    font-size: 32px;
+    font-family: "ef-font", sans-serif;
+    font-weight: bold;
+    color: #d9d9d9;
+    margin: 0;
+    margin-left: 60px;
+    line-height: 1;
+  }
+  .mof .box span {
+    font-size: 70px;
+
+    color: #0a84d9;
+  }
+  .mof .box .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 9px;
+    margin-left: 60px;
+    margin-bottom: 0;
+  }
+
+  .mof .box .details {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    margin-top: 40px;
+    margin-top: 10px;
+    line-height: 1;
+  }
+  .mof .box .box-top {
+    margin-top: 31px;
+  }
+  .fx-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    justify-content: space-between;
+  }
+  .fx-btn img {
+    width: 305px;
+    height: 106px;
+  }
+  .p-6 {
+    padding: 0 6px;
+  }
+  .pr-6 {
+    padding-right: 6px;
+  }
+  .pl-6 {
+    padding-left: 6px;
+  }
+}
+
+
+@media only screen and (min-width: 431px) and (max-width: 1199px) {
+  /* 添加平板设备样式 */
+  .mainbox {
+    margin-top: 120px;
+  }
+  .container {
+    width: 1460px;
+    max-width: 1460px;
+  }
+  .bannerbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner img {
+    width: 100%;
+    /* height: 771px; */
+  }
+  .textbox {
+    margin-top: 0;
+  }
+  .textbox p {
+    font-family: "te-font", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+  }
+  .textbox span {
+    font-family: "te-font", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #0061cd;
+  }
+  .textbox .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 40px;
+    margin-top: 51px;
+  }
+  .btn-earn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .textbox .btn-earn img {
+    width: 50%;
+    /* height: 85px !important; */
+    margin-top: 41px;
+    margin-bottom: 40px;
+  }
+  .Protocol {
+    /* margin-top: 82px; */
+    text-align: center;
+  }
+  .Protocol p {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+  }
+  .Protocol span {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #0061cd;
+  }
+  .down img {
+    width: 52px;
+    height: 37px;
+    margin: 30px 0 29px 0;
+  }
+  .pro-detail p {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 36px;
+  }
+  .pro-detail img {
+    width: 100%;
+    /* height: 647px; */
+  }
+  .revenue {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .revenue img {
+    width: 100%;
+    /* height: 742px; */
+  }
+  .revenue .box p {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+  .revenue .box span {
+    font-size: 35px;
+
+    color: #0a84d9;
+  }
+  .colored-line {
+    position: relative;
+    height: 1px;
+    background: #ffffffa8;
+  }
+
+  .colored-line::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 10px;
+    background: #0a84d9;
+    border-radius: 5px;
+    width: 142px;
+  }
+  .revenue .box .detail {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+
+  .revenue .box .details {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .boost {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .boost img {
+    width: 100%;
+    /* height: 920px; */
+  }
+  .boost .box p {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+  .boost .box span {
+    font-size: 35px;
+
+    color: #0a84d9;
+  }
+  .boost .box .detail {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+  .boost .box .details {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .mof {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .mof .box {
+    background-color: #010c13;
+    border-radius: 0 20px 20px 0;
+  }
+  .mof img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* height: 630px; */
+  }
+  .mof .box p {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .mof .box .title {
+    margin-top: 51px;
+    /* margin-left: 56px; */
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+  .mof .box .box-title {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: bold;
+    color: #d9d9d9;
+    margin: 0;
+    /* margin-left: 60px; */
+    line-height: 1;
+  }
+  .mof .box span {
+    font-size: 35px;
+
+    color: #0a84d9;
+  }
+  .mof .box .detail {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 9px;
+    /* margin-left: 60px; */
+    margin-bottom: 0;
+  }
+
+  .mof .box .details {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    margin-top: 40px;
+    margin-top: 10px;
+    line-height: 1;
+  }
+  .mof .box .box-top {
+    margin-top: 20px;
+  }
+  .fx-btn {
+    justify-items: center;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 70px;
+  }
+  .fx-btn img {
+    width: 100%;
+    padding: 10px;
+    /* height: 95px; */
+  }
+}
+/* 移动设备 */
+@media only screen and (min-width: 371px)and (max-width: 430px) {
+  .mainbox {
+    margin-top: 120px;
+  }
+  .container {
+    width: 1460px;
+    max-width: 1460px;
+  }
+  .bannerbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner img {
+    width: 100%;
+    /* height: 771px; */
+  }
+  .textbox {
+    margin-top: 0;
+  }
+  .textbox p {
+    font-family: "te-font", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+  }
+  .textbox span {
+    font-family: "te-font", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #0061cd;
+  }
+  .textbox .detail {
+    font-size: 26px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 40px;
+    margin-top: 51px;
+  }
+  .btn-earn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .textbox .btn-earn img {
+    width: 50%;
+    /* height: 85px !important; */
+    margin-top: 41px;
+    margin-bottom: 40px;
+  }
+  .Protocol {
+    /* margin-top: 82px; */
+    text-align: center;
+  }
+  .Protocol p {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+  }
+  .Protocol span {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #0061cd;
+  }
+  .down img {
+    width: 52px;
+    height: 37px;
+    margin: 30px 0 29px 0;
+  }
+  .pro-detail p {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 36px;
+  }
+  .pro-detail img {
+    width: 100%;
+    /* height: 380px; */
+  }
+  .revenue {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .revenue img {
+    width: 100%;
+    /* height: 742px; */
+  }
+  .revenue .box p {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+  .revenue .box span {
+    font-size: 35px;
+
+    color: #0a84d9;
+  }
+  .colored-line {
+    position: relative;
+    height: 1px;
+    background: #ffffffa8;
+  }
+
+  .colored-line::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 10px;
+    background: #0a84d9;
+    border-radius: 5px;
+    width: 142px;
+  }
+  .revenue .box .detail {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+
+  .revenue .box .details {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .boost {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .boost img {
+    width: 100%;
+    /* height: 920px; */
+  }
+  .boost .box p {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+  .boost .box span {
+    font-size: 35px;
+
+    color: #0a84d9;
+  }
+  .boost .box .detail {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+  }
+  .boost .box .details {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .mof {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .mof .box {
+    background-color: #010c13;
+    border-radius: 0 20px 20px 0;
+  }
+  .mof img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* height: 630px; */
+  }
+  .mof .box p {
+    font-size: 35px;
+    font-family: "te-font", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  .mof .box .title {
+    margin-top: 51px;
+    /* margin-left: 56px; */
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+  .mof .box .box-title {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: bold;
+    color: #d9d9d9;
+    margin: 0;
+    /* margin-left: 60px; */
+    line-height: 1;
+  }
+  .mof .box span {
+    font-size: 35px;
+
+    color: #0a84d9;
+  }
+  .mof .box .detail {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    line-height: 32px;
+    margin-top: 9px;
+    /* margin-left: 60px; */
+    margin-bottom: 0;
+  }
+
+  .mof .box .details {
+    font-size: 18px;
+    font-family: "ef-font", sans-serif;
+    font-weight: 400;
+    color: #c0c0c0;
+    margin-top: 40px;
+    margin-top: 10px;
+    line-height: 1;
+  }
+  .mof .box .box-top {
+    margin-top: 20px;
+  }
+  .fx-btn {
+    justify-items: center;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 70px;
+  }
+  .fx-btn img {
+    width: 100%;
+    padding: 10px;
+    /* height: 95px; */
+  }
+  /* .p-6 {
+    padding: 0 6px;
+  }
+  .pr-6 {
+    padding-right: 6px;
+  }
+  .pl-6 {
+    padding-left: 6px;
+  } */
+}
